@@ -1,0 +1,438 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Page Title -->
+    <title>Small Medium</title>
+    <!-- Favicon -->
+    <link rel="icon" type="image/x-icon" href="Assets/medium-icon.png" />
+    <!-- CSS Bootstrap -->
+    <link rel="stylesheet" type="text/css" href="Package/bootstrap.min.css" />
+    <!-- Icon Bootstrap -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css" />
+    <!-- External CSS -->
+    <link rel="stylesheet" type="text/css" href="style.css" />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <section id="navbar">
+      <!-- A. Menu -->
+      <nav id="menu" class="navbar navbar-expand-lg pt-2 pb-2">
+        <div class="container">
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu-menus" aria-controls="navbarTogglerDemo03" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+          </button>
+          <!-- 1. Logo -->
+          <a id="menu-logo" class="navbar-brand row align-items-center" href="#">
+            <div class="row align-items-center">
+              <!-- Image -->
+              <img id="menu-logo-image" src="Assets/medium-icon.png" alt="Logo" class="col-4 gx-0 ps-3" />
+              <!-- Text -->
+              <div id="menu-logo-text" class="col-9 fw-bolder gx-3">Small Medium</div>
+            </div>
+          </a>
+          <!-- 2. Menus -->
+          <ul id="menu-menus" class="nav navbar-nav collapse navbar-collapse justify-content-end">
+            <!-- Our Story -->
+            <li id="menu-menus-ourStory" class="nav-item">
+              <a class="nav-link active" href="#">Our Story</a>
+            </li>
+            <!-- Membership -->
+            <li id="menu-menus-membership" class="nav-item">
+              <a class="nav-link" href="#">Membership</a>
+            </li>
+            <!-- Write -->
+            <li id="menu-menus-write" class="nav-item">
+              <a class="nav-link" href="#">Write</a>
+            </li>
+            <!-- Sign In -->
+            <li id="menu-menus-signIn" class="nav-item">
+              <a class="nav-link" href="#">Sign In</a>
+            </li>
+            <!-- Get Started -->
+            <li id="menu-menus-getStarted" class="nav-item">
+              <a class="nav-link">
+                <button type="button" class="btn btn-secondary rounded-5">Get Started</button>
+              </a>
+            </li>
+          </ul>
+        </div>
+      </nav>
+      <hr id="navbar-line" />
+      <!-- B. Carrousel -->
+      <div id="carouselExample" class="carousel slide">
+        <div class="carousel-inner">
+          <!-- 1. First Carrousel -->
+          <div class="carousel-item active">
+            <div id="carrousel" class="container mt-lg-4">
+              <div class="row">
+                <!--  a. Content -->
+                <div id="carrousel-left" class="col-lg-6">
+                  <!-- Carrousel Title -->
+                  <div id="carrousel-left-title" class="row mb-3 display-6 fw-medium">How I Got Interested in Slow Productivity</div>
+                  <!-- Carrousel Caption -->
+                  <div id="carrousel-left-caption" class="row mb-4">
+                    The goal here is to work and live a productive and intentional life at a more sustainable pace. Without feeling overwhelmed and exhausted. To have more energy and mental space for relationships and personal interests.
+                  </div>
+                  <!-- Carrousel Button -->
+                  <div id="carrousel-left-button" class="row">
+                    <button class="btn btn-warning rounded-1">Get Started</button>
+                  </div>
+                </div>
+                <!-- b. Image -->
+                <div id="carrousel-right" class="col-lg-6">
+                  <img src="Assets/headline-image-1.jpg" alt="" class="img-fluid rounded-1" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- 2. Second Carrousel -->
+          <div class="carousel-item">
+            <div id="carrousel" class="container mt-lg-4">
+              <div class="row">
+                <!--  a. Content -->
+                <div id="carrousel-left" class="col-lg-6">
+                  <!-- Carrousel Title -->
+                  <div id="carrousel-left-title" class="row mb-3 display-6 fw-medium">Why Software Engineers insist drinking coffee before coding?</div>
+                  <!-- Carrousel Caption -->
+                  <div id="carrousel-left-caption" class="row mb-4">When under stress, Coffee can be seen as helpful in managing your stress and mood-enhancing when used in moderation.</div>
+                  <!-- Carrousel Button -->
+                  <div id="carrousel-left-button" class="row">
+                    <button class="btn btn-warning rounded-1">Get Started</button>
+                  </div>
+                </div>
+                <!-- b. Image -->
+                <div id="carrousel-right" class="col-lg-6">
+                  <img src="Assets/headline-image-2.jpg" alt="" class="img-fluid rounded-1" />
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExample" data-bs-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="visually-hidden">Next</span>
+        </button>
+      </div>
+      <!-- C. Wave -->
+      <svg id="navbar-wave" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1440 320"><path fill="#ffffff" fill-opacity="1" d="M0,256L1440,256L1440,320L0,320Z"></path></svg>
+    </section>
+    <!-- Trending -->
+    <section id="trending">
+      <div class="container">
+        <!-- A. Trending Title -->
+        <div id="title" class="row align-items-center">
+          <img src="Assets/trending-icon.png" id="title-image" class="col-3 mt-1" />
+          <div id="title-text" class="col-9 gx-1">Trending on Small Medium</div>
+        </div>
+        <!-- B. Trending Contents -->
+        <div id="contents" class="row">
+          <!-- Trending Content 1 -->
+          <div id="contents-1" class="col-lg-4 col-md-6 pt-0 pb-0">
+            <div class="row">
+              <!-- a. Number -->
+              <div id="contents-1-number" class="col-2 fs-2 fw-bold">01</div>
+              <!-- b. Content -->
+              <div id="contents-1-content" class="col-10">
+                <!-- Article Author -->
+                <div id="contents-1-content-author" class="row d-inline">
+                  <img src="Assets/author-image-1.png" id="contents-1-content-author-image" class="mt-1 mb-2 me-0 pe-2" />
+                  <small class="fw-semibold gx-0">Wu <span class="text-secondary">in</span> UX Collective</small>
+                </div>
+                <!-- Article Title-->
+                <div id="contents-1-content-title" class="row mb-2">
+                  <p class="fw-bold mb-0">My first layoff was the best thing that could happen to my career</p>
+                </div>
+                <!-- Article Date Posted -->
+                <div id="contents-1-content-time-and-date" class="row">
+                  <small> Apr 25 · 7 min read <i class="bi bi-star-fill ms-2 text-warning"></i> </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  Trending Content 2 -->
+          <div id="contents-1" class="col-lg-4 col-md-6 pt-0 pb-0">
+            <div class="row">
+              <!-- a. Number -->
+              <div id="contents-1-number" class="col-2 fs-2 fw-bold">02</div>
+              <!-- b. Content -->
+              <div id="contents-1-content" class="col-10">
+                <!-- Article Author -->
+                <div id="contents-1-content-author" class="row d-inline">
+                  <img src="Assets/author-image-2.png" id="contents-1-content-author-image" class="mt-1 mb-2 me-0 pe-2" />
+                  <small class="fw-semibold gx-0">Whitney Alese <span class="text-secondary">in</span> ZORA</small>
+                </div>
+                <!-- Article Title-->
+                <div id="contents-1-content-title" class="row mb-2">
+                  <p class="fw-bold mb-0">There will be no mourning Carolyn Bryant Donham</p>
+                </div>
+                <!-- Article Date Posted -->
+                <div id="contents-1-content-time-and-date" class="row">
+                  <small>Apr 28 · 3 min read</small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  Trending Content 3 -->
+          <div id="contents-1" class="col-lg-4 col-md-6 pt-0 pb-0">
+            <div class="row">
+              <!-- a. Number -->
+              <div id="contents-1-number" class="col-2 fs-2 fw-bold">03</div>
+              <!-- b. Content -->
+              <div id="contents-1-content" class="col-10">
+                <!-- Article Author -->
+                <div id="contents-1-content-author" class="row d-inline">
+                  <img src="Assets/author-image-3.png" id="contents-1-content-author-image" class="mt-1 mb-2 me-0 pe-2" />
+                  <small class="fw-semibold gx-0">Joe Duncan</small>
+                </div>
+                <!-- Article Title-->
+                <div id="contents-1-content-title" class="row mb-2">
+                  <p class="fw-bold mb-0">The Disney-DeSantis Battle Has Crossed a Terrifying Line</p>
+                </div>
+                <!-- Article Date Posted -->
+                <div id="contents-1-content-time-and-date" class="row">
+                  <small> Apr 22 · 5 min read </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  Trending Content 4 -->
+          <div id="contents-1" class="col-lg-4 col-md-6 pt-0 pb-0">
+            <div class="row">
+              <!-- a. Number -->
+              <div id="contents-1-number" class="col-2 fs-2 fw-bold">04</div>
+              <!-- b. Content -->
+              <div id="contents-1-content" class="col-10">
+                <!-- Article Author -->
+                <div id="contents-1-content-author" class="row d-inline">
+                  <img src="Assets/author-image-4.png" id="contents-1-content-author-image" class="mt-1 mb-2 me-0 pe-2" />
+                  <small class="fw-semibold gx-0">Minko Gechev <span class="text-secondary">in</span> Angular Blog</small>
+                </div>
+                <!-- Article Title-->
+                <div id="contents-1-content-title" class="row mb-2">
+                  <p class="fw-bold mb-0">Angular v16 is here!</p>
+                </div>
+                <!-- Article Date Posted -->
+                <div id="contents-1-content-time-and-date" class="row">
+                  <small> May 4 · 12 min read </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  Trending Content 5 -->
+          <div id="contents-1" class="col-lg-4 col-md-6 pt-0 pb-0">
+            <div class="row">
+              <!-- a. Number -->
+              <div id="contents-1-number" class="col-2 fs-2 fw-bold">05</div>
+              <!-- b. Content -->
+              <div id="contents-1-content" class="col-10">
+                <!-- Article Author -->
+                <div id="contents-1-content-author" class="row d-inline">
+                  <img src="Assets/author-image-5.png" id="contents-1-content-author-image" class="mt-1 mb-2 me-0 pe-2" />
+                  <small class="fw-semibold gx-0">Lavie Ohana</small>
+                </div>
+                <!-- Article Title-->
+                <div id="contents-1-content-title" class="row mb-2">
+                  <p class="fw-bold mb-0">Starship II: A Reprise</p>
+                </div>
+                <!-- Article Date Posted -->
+                <div id="contents-1-content-time-and-date" class="row">
+                  <small> May 2 · 15 min read <i class="bi bi-star-fill ms-2 text-warning"></i> </small>
+                </div>
+              </div>
+            </div>
+          </div>
+          <!--  Trending Content 6 -->
+          <div id="contents-1" class="col-lg-4 col-md-6 pt-0 pb-0">
+            <div class="row">
+              <!-- a. Number -->
+              <div id="contents-1-number" class="col-2 fs-2 fw-bold">06</div>
+              <!-- b. Content -->
+              <div id="contents-1-content" class="col-10">
+                <!-- Article Author -->
+                <div id="contents-1-content-author" class="row d-inline">
+                  <img src="Assets/author-image-6.png" id="contents-1-content-author-image" class="mt-1 mb-2 me-0 pe-2" />
+                  <small class="fw-semibold gx-0">Cassie Kozyrkov</small>
+                </div>
+                <!-- Article Title-->
+                <div id="contents-1-content-title" class="row mb-2">
+                  <p class="fw-bold mb-0">How AI is Evolving</p>
+                </div>
+                <!-- Article Date Posted -->
+                <div id="contents-1-content-time-and-date" class="row">
+                  <small> Apr 27 · 3 min read <i class="bi bi-star-fill ms-2 text-warning"></i> </small>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <hr id="navbar-line" class="mt-4" />
+    <!-- Multi Section -->
+    <section id="multi-section">
+      <div class="container">
+        <div class="row">
+          <!-- A. Article -->
+          <div id="article" class="col-lg-8">
+            <!-- Article 1 -->
+            <div class="card mb-4">
+              <div class="row g-0">
+                <!-- a. Article Content -->
+                <div class="col-lg-8 ps-1 mb-0 pb-0">
+                  <div class="card-body">
+                    <!-- Article Author -->
+                    <div class="card-text mb-2 pb-1">
+                      <img src="Assets/author-image-7.png" id="article-1-content-author-image" class="me-1" />
+                      <div id="article-1-content-author-text" class="fw-semibold d-inline">Jess Iandiorio <span class="text-secondary">in</span> The Startup</div>
+                    </div>
+                    <!-- Article Title -->
+                    <div class="card-title mb-1 fs-6 fw-bold display-6">The Real Reason Women Aren’t Getting Ahead in Tech : She’s Not Strategic</div>
+                    <!-- Article Synopsis -->
+                    <div class="card-text mb-2 text-truncate">
+                      <small> Before I explain “She’s not strategic,” I’d like to give you a bit of background. I’m 38 years old and a two-time CMO for tech... </small>
+                    </div>
+                    <!-- Article Date Posted -->
+                    <div class="card-text">
+                      <small class="text-secondary mb-0 pb-0">59 minutes ago </small>
+                      <i class="bi bi-bookmark-fill float-end mt-1 me-1"></i>
+                    </div>
+                  </div>
+                </div>
+                <!-- b. Article Image -->
+                <div class="col-lg-4 d-flex">
+                  <img src="Assets/article-image-1.jpg" id="article-1-image" class="img-fluid rounded-start" />
+                </div>
+              </div>
+            </div>
+            <!-- Article 2 -->
+            <div class="card">
+              <div class="row g-0">
+                <!-- a. Article Content -->
+                <div class="col-lg-8 ps-1 mb-0 pb-0">
+                  <div class="card-body">
+                    <!-- Article Author -->
+                    <div class="card-text mb-2 pb-1">
+                      <img src="Assets/author-image-8.png" id="article-1-content-author-image" class="me-1" />
+                      <div id="article-1-content-author-text" class="fw-semibold d-inline">Jenka</div>
+                    </div>
+                    <!-- Article Title -->
+                    <div class="card-title mb-1 fs-6 fw-bold display-6">My kids and I just played D&D with ChatGPT4 as the DM</div>
+                    <!-- Article Synopsis -->
+                    <div class="card-text mb-2 text-truncate">
+                      <small> How AI misrepresents culture through a facial expression. </small>
+                    </div>
+                    <!-- Article Date Posted -->
+                    <div class="card-text">
+                      <small class="text-secondary mb-0 pb-0"> 1 day ago </small>
+                      <i class="bi bi-bookmark float-end mt-1 me-1"></i>
+                    </div>
+                  </div>
+                </div>
+                <!-- b. Article Image -->
+                <div class="col-lg-4 d-flex">
+                  <img src="Assets/article-image-2.png" id="article-1-image" class="img-fluid rounded-start" />
+                </div>
+              </div>
+            </div>
+          </div>
+          <!-- B. Discover and Footer -->
+          <div id="discover-and-footer" class="col-lg-4">
+            <!-- 1.  Discover Title -->
+            <div id="discover-and-footer-title" class="row fs-6">
+              <strong>DISCOVER MORE OF WHAT MATTERS TO YOU</strong>
+            </div>
+            <!-- 2.  Badge Topic -->
+            <div id="discover-and-footer-topic-badge" class="row mt-3">
+              <!-- Topic 1 -->
+              <div id="discover-and-footer-topic-badge-1" class="col-lg-3 col-md-2 col-4">
+                <button type="button" class="btn btn-outline-secondary position-relative rounded-5">Technology</button>
+              </div>
+              <!-- Topic 2 -->
+              <div id="discover-and-footer-topic-badge-2" class="col-lg-3 col-md-2 col-4">
+                <button type="button" class="btn btn-outline-secondary position-relative rounded-5">Programming</button>
+              </div>
+              <!-- Topic 3 -->
+              <div id="discover-and-footer-topic-badge-3" class="col-lg-3 col-md-2 col-4">
+                <button type="button" class="btn btn-outline-secondary position-relative rounded-5">Coding</button>
+              </div>
+              <!-- Topic 4 -->
+              <div id="discover-and-footer-topic-badge-4" class="col-lg-3 col-md-2 col-4">
+                <button type="button" class="btn btn-outline-secondary position-relative rounded-5">Productivity</button>
+              </div>
+              <!-- Topic 5 -->
+              <div id="discover-and-footer-topic-badge-5" class="col-lg-3 col-md-2 col-4" style="white-space: nowrap">
+                <button type="button" class="btn btn-outline-secondary position-relative rounded-5">Data Science</button>
+              </div>
+              <!-- Topic 6 -->
+              <div id="discover-and-footer-topic-badge-6" class="col-lg-3 col-md-2 col-4">
+                <button type="button" class="btn btn-outline-secondary position-relative rounded-5">ChatGPT</button>
+              </div>
+              <!-- Topic 7 -->
+              <div id="discover-and-footer-topic-badge-7" class="col-5 ms-1">
+                <a href="#" class="text-secondary">See more topics</a>
+              </div>
+            </div>
+            <!-- 3. Subscription Title -->
+            <div id="discover-and-footer-title-subscription" class="row mt-2 pt-2">
+              <strong>Subscribe for more</strong>
+              <small>Get notified when we publish something new!</small>
+            </div>
+            <!-- 4. Form -->
+            <form class="row g-2 pt-2">
+              <!-- Form Input -->
+              <div class="col-lg-9 col-md-7 col-9">
+                <label for="inputPassword2" class="visually-hidden">Password</label>
+                <input id="discover-and-footer-form-input" type="password" class="form-control" id="inputPassword2" placeholder="dzarurizkybusiness@gmail.com" />
+              </div>
+              <!-- Form Button -->
+              <div class="col-lg-3 col-md-4 col-3">
+                <button type="submit" id="discover-and-footer-form-button" class="btn btn-warning mb-3">Submit</button>
+              </div>
+            </form>
+            <hr id="navbar-line" class="mt-1" />
+            <!-- 5. Footer -->
+            <div id="footer" class="row pt-2">
+              <!-- About -->
+              <div id="footer-about" class="col-2">
+                <small><strong>About</strong></small>
+              </div>
+              <!-- Writers -->
+              <div id="footer-writers" class="col-2">
+                <small><strong>Writers</strong></small>
+              </div>
+              <!-- License -->
+              <div id="footer-license" class="col-2">
+                <small><strong>License</strong></small>
+              </div>
+              <!-- Privacy -->
+              <div id="footer-privacy" class="col-2">
+                <small><strong>Privacy</strong></small>
+              </div>
+              <!-- Terms -->
+              <div id="footer-terms" class="col-2">
+                <small><strong>Terms</strong></small>
+              </div>
+              <!-- Writers -->
+              <div id="footer-writers" class="col-2">
+                <small><strong>Writers</strong></small>
+              </div>
+              <!-- Author (github: @dzarurizkyy) -->
+              <div id="footer-author" class="row pt-2">
+                <small> Created with <i class="bi bi-heart-fill"></i> by <span class="fw-semibold">Dzaru Rizky</span> </small>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- JS Bootstrap -->
+    <script type="text/javascript" src="Package/bootstrap.bundle.min.js"></script>
+  </body>
+</html>
